@@ -1,0 +1,12 @@
+.button{
+  width: 12.777777777777777vw;
+  height: 3.88vw;
+  border-radius: 6px;
+  /* padding: 1.11vw 3.88vw 1.11vw 3.88vw; */
+  border: 1px solid #000000;
+  font-family: 'SFProDisplay', sans-serif;
+  font-size: 1.11vw;
+  font-weight: 500;
+  line-height: 1.66vw;
+  text-align: center;
+}

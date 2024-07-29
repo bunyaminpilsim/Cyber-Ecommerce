@@ -1,0 +1,125 @@
+.BrowseByCatSection{
+    height: 24.44vw;
+    padding: 5.55vw 11.11vw 5.55vw 11.11vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+  }
+  .s7Top{
+    width: 77.77vw;
+    height: 2.22vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+  .s7Top p{
+    width: 14.9305vw;
+    height: 2.222vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-weight: 500;
+    line-height: 2.22vw;
+    font-size: 1.66vw;
+    letter-spacing: 1%;
+  }
+  .s7Arrows{
+    width: 5.55vw;
+    height: 2.22vw;
+    gap: 1.11vw;
+  }
+  .s7Arrows img{
+    width: 2.22vw;
+    height: 2.22vw;
+    
+  }
+  .s7Category {
+    width: 100%;
+    height: 8.888vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .s7cards{
+    width: 11.11vw;
+    height: 8.88vw;
+    border-radius: 1.041vw;
+    gap: 0.55vw;
+    /* padding: 1.66vw 3.61vw 1.66vw 3.61vw; */
+    padding: 1.66vw 0px 1.66vw 0px;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s7cards img{
+    width: 3.33vw;
+    height: 3.33vw;
+  }
+  .s7cards p{
+    height: 1.66vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: center;
+  }
+  .s8Products {
+    height: 73.33vw;
+    padding: 3.88vw 11.11vw 3.88vw 11.11vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .s8tags{
+    width: 77.77vw;
+    height: 2.22vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .s8labels{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.25vw;
+    line-height: 2.22vw;
+    font-weight: 500;
+    color: #8B8B8B;
+  }
+  .s8labels:hover{
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+  .s8tagsLabel1{
+    width: 6.1805vw;
+    height: 2.22vw;
+  }
+  .s8tagsLabel2{
+    width: 5.3472vw;
+    height: 2.22vw;
+  }
+  .s8tagsLabel3{
+    width: 9.9305vw;
+    height: 2.22vw;
+  }
+  .s8productsGrid{
+    width: 77.77VW;
+    height: 61.11VW;
+    gap: 1.11VW;
+    display: flex;
+    flex-direction: column;
+  }
+  .s8ProductsTop{
+    width: 77.77vw;
+    height: 30vw;
+    gap: 1.11;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .s8ProductsBottom{
+    width: 77.77vw;
+    height: 30vw;
+    gap: 1.11;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

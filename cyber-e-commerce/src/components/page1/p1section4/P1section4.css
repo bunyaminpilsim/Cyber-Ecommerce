@@ -1,0 +1,24 @@
+.section10{
+    height: 45.55vw;
+    padding: 5.55vw 11.11vw 5.55vw 11.11vw;
+    gap: 2.22vw;  
+    display: flex;
+    flex-direction: column;
+  }
+  .s10label{
+    width: 15.694vw;
+    height: 2.22vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 500;
+    line-height: 2.22vw;
+    /* text-align: center; */
+  }
+  .s8ProductsTop{
+    width: 77.77vw;
+    height: 30vw;
+    gap: 1.11;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

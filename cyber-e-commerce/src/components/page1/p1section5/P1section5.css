@@ -1,0 +1,80 @@
+.section11{
+    height: 31.11vw;
+    background-image: linear-gradient(#2E2E2E,#000000);
+    /* align-items:top; */
+    display: flex;
+    padding: 0px;
+    position: relative;
+  }
+  .section11Img1{
+    width: 16.4583vw;
+    height: 13.33vw;
+    margin-left: 2.70833vw;
+    z-index: 10;
+  }
+  .section11Img2{
+    z-index: 5;
+    width: 23.472vw;
+    height: 8.055vw;
+    margin-left: 15.4861vw;
+    position: absolute;
+  }
+  .section11Img3{
+    width: 23.9583vw;
+    height: 18.1944vw;
+    margin-top: 11.7vw;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+  }
+  .section11Img4{
+    width: 14vw;
+    height: 25.3472vw;
+    position: absolute;
+    right: 0px;
+  }
+  .section11Img5{
+    width: 27.5694vw;
+    height: 13.9583vw;
+    /* z-index: 5; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  .section11Div{
+    width: 34.0972vw;
+    height: 13.88vw;
+    gap: 2.77vw;
+    margin-top: 11.07638888888889vw;
+    margin-left: 34.6875vw;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .section11Label{
+    width: 34.0972vw;
+    height: 5vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 4.8vw;
+    font-weight: 100;
+    line-height: 5vw;
+    letter-spacing: -0.01em;
+    font-style: italic;
+    /* text-align: center; */
+    color: white;
+  }
+  .s11span{
+    font-weight: 500 ;
+    color: white;
+  }
+  .section11Text{
+    width: 34.0972vw;
+    height: 2.22vw;
+    font-family: 'SFProDisplay', sans-serif;
+    text-align: center;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.22vw;  
+    color: rgba(120, 120, 120, 1);
+  }

@@ -1,0 +1,68 @@
+.productsCard{
+    width: 18.61vw;
+    height: 30vw;
+    padding: 1.66vw 1.11vw 1.66vw 1.11vw;
+    gap: 1.11vw;
+    border-radius: 0.625vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    align-items: center;
+  }
+  .pcTop{
+    width: 16.38vw;
+    height: 2.22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  .pcImg{
+    width: 2.22vw;
+    height: 2.22vw;
+  }
+  .pcMidImg{
+    width: 11.11vw;
+    height: 11.11vw;
+  }
+  .pcBottom{
+    width: 16.388vw;
+    height: 11.11vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pcBottomText{
+    width: 16.38vw;
+    height: 3.33vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: center;
+  }
+  .pcBottomPrice{
+    width: 16.38vw;
+    height: 1.66vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 600;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .pcBottomButton{
+    width: 12.7083vw;
+    height: 3.33vw;
+    padding: 0.83vw 4.44vw 0.83vw 4.44vw;
+    gap: 0.55vw;
+    border-radius: 0.55vw;
+    color: white;
+    background-color: #000000;
+    font-family: 'SF Pro Display', sans-serif;
+  }
+  .pcBottomButton:hover{
+    background-color: white;
+    color: #000000;
+    border: 1px solid #000000;
+  }

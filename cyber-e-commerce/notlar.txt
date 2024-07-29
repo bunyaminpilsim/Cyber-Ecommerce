@@ -1,0 +1,2 @@
+section 4 te random number ile product çek her girdiğinde farklı productlar çıksın
+section 2deki seçicilerin işlevselliğini ayarla

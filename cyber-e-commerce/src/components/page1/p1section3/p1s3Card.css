@@ -1,0 +1,54 @@
+.p1s3Cards{
+    height: 44.44vw;
+    padding: 0vw 2.22vw 3.88vw 2.22vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAEAEA;
+  }
+  .s9Img{
+    width: 24.5vw;
+    height: 25vw;
+    /* position: absolute;
+    top: 0px; */
+  }
+  .s9textButton{
+    width: 20.55vw;
+    height: 14.44vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .s9Title{
+    width: 20.55vw;
+    height: 3.33vw;
+    font-size: 2.2916vw;
+    font-weight: 300;
+    line-height: 3.33vw;
+    text-align: left;
+    gap: 0px;
+    font-family: 'SFProDisplay', sans-serif;
+  }
+  .s9Description{
+    width: 20.55vw;
+    height: 5vw;
+    gap: 0px;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 0.9722vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: left;
+    color: #909090;
+  }
+  .s9Button{
+    width: 12.77vw;
+    height: 3.88vw;
+    border-radius:0.4166vw;
+    border: 1px solid #000000;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: center;
+  }
