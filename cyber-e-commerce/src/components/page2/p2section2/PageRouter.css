@@ -1,0 +1,43 @@
+.pr{
+    width: 18.88vw;
+    height: 2.22vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.prImg{
+    width: 1.66vw;
+    height: 1.66vw;
+}
+.prPageNums{
+    width: 13.33vw;
+    height: 2.22vw;
+    gap: 0.55vw;
+    display: flex;
+    flex-direction: row;
+}
+.pageNumCard{
+    width: 2.22vw;
+    height: 2.22vw;
+    /* padding: 0.277vw 0.833vw 0.277vw 0.833vw; */
+    gap: 0.55vw;
+    border-radius: 0.347222vw;
+    border: none;
+    background-color : '#f4efed';
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.prNokta{
+    width: 1.66vw;
+    height: 0.416vw;
+    margin-top: 1.8vw;
+}
+.on{
+    background-color: #333;
+    color: #fff;
+}

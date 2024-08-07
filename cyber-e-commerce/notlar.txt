@@ -1,2 +1,4 @@
 section 4 te random number ile product çek her girdiğinde farklı productlar çıksın
 section 2deki seçicilerin işlevselliğini ayarla
+sayfa genelinde user-select: none; komutu ile metin seçimini engelle 
+metin seçilen yerlerde seççim rengi mavi değil dahat güzel bir renk yap

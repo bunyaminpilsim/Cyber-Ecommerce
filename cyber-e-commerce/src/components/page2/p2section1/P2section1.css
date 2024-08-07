@@ -1,0 +1,21 @@
+.p2s1Container{
+    display: flex;
+    height: 7.77vw;
+    padding: 2.77vw 11.11vw 2.77vw 11.11vw;
+    gap: 1.11vw;
+    align-items: center;
+}
+.p2s1Text1{
+    width: 2.9166vw auto;
+    height: 1.11vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    text-align: left;
+}
+.p2s1Img{
+    width: 1.66vw;
+    height: 1.66vw;
+    /* padding: 0vw 0.4166vw 0vw 0.4166vw; */
+}

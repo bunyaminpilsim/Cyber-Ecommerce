@@ -10,7 +10,7 @@ function CreateCard({imageNum, description, price}){
         <img src={imageNum} alt="" class="pcMidImg"/>
         <div class="pcBottom">
           <p class="pcBottomText">{description}</p>
-          <p class="pcBottomPrice">{price}</p>
+          <p class="pcBottomPrice">${price}</p>
           <button class="pcBottomButton">Buy Now</button>
         </div>
       </div>

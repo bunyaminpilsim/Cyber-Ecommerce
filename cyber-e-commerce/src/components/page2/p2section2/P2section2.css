@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+.p2s2container{
+    /* height: 108.33vw; */
+    height: auto;
+    padding: 1.66vw 11.11vw 1.66vw 11.11vw;
+    gap: 2.22vw;
+    display: flex;
+    /* background-color: bisque; */
+}
+.p2s2frame{
+    width: 77.70833vw;
+    height: 102.77vw;
+    gap: 2.22vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.p2s2filter{
+    position:sticky !important;
+    width: 17.77vw;
+    top: 0;
+    height: 52.77vw;
+    gap: 1.66vw;
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.p2s2productSection{
+    width: 57.70833vw;
+    height: auto;
+    gap: 2.77vw;
+    display: flex;
+    /* background-color: burlywood;ö */
+    flex-direction: column;
+    align-items: center;
+}
+.p2s2product{
+    width: 57.7083vw;
+    height: auto;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+}
+.pageRouter{
+    width: 18.88vw;
+    height: 2.22vw;
+    gap: 1.11vw;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+.p2s2topPage{
+    width: 57.70833vw;
+    height: 2.777vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.p2s2leftSide{
+    width: 13.888vw;
+    height: 1.11vw;
+    gap: 0.4166vw;
+    display: flex;
+    align-items: center;
+}
+.p2s2leftSide p{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(108, 108, 108, 1);
+}
+.p2s2leftSide p span{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.3888vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: black;
+}
+.productPageCards{
+    width: 57.7083vw;
+    height: auto ;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 1);
+    gap: 0.9vw;
+    flex-wrap: wrap;
+}
+.select {
+    width: 200px; /* Genişliği ayarlayın */
+    padding: 10px; /* İç boşluk */
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 5px; /* Kenar yuvarlama */
+    background-color: #fff; /* Arka plan rengi */
+    font-size: 16px; /* Yazı boyutu */
+    cursor: pointer; /* İmleç değişimi */
+    appearance: none; /* Varsayılan görünümü kaldır */
+}
+
+.select:focus {
+    border-color: #544e4e; /* Seçim odaklandığında kenar rengi */
+    outline: none; /* Kenar çizgisi kaldır */
+}   
+
+.select option {
+    padding: 10px; /* Seçenek içi boşluk */
+    background-color: #fff; /* Seçenek arka plan rengi */
+    color: #000; /* Seçenek yazı rengi */
+}
+.select-option:hover {
+    background-color: #f1f1f1; /* Hover rengi */
+}

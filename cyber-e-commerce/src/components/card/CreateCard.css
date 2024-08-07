@@ -8,6 +8,7 @@
     flex-direction: column;
     background-color: #F6F6F6;
     align-items: center;
+    box-sizing: border-box;
   }
   .pcTop{
     width: 16.38vw;

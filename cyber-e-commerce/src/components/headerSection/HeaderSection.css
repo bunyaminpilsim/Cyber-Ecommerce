@@ -9,6 +9,9 @@
     width: 50%;
     margin: 40%;
 }
+.headerim{
+    border-bottom: 1px solid rgba(181, 181, 181, 1) ;
+}
 .searchBar{
 width:25.83vw;
 height:3.88vw;
