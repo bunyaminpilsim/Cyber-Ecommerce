@@ -7,7 +7,7 @@ function Page2() {
     return (
         <>
             <HeaderSection />
-            <P2section1 router1={"SmartPhones"} router2={"Apple"}/>
+            <P2section1 />
             <P2section2 />
             <FooterSection />
         </>
