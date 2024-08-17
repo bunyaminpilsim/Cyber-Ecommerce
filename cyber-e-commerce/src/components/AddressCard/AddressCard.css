@@ -1,0 +1,112 @@
+.addressCard{
+    width: 77.77vw;
+    height: 10vw;
+    padding: 1.66vw;
+    border-radius: 7px;
+    justify-content: space-between;
+    display: flex;
+    background-color:  rgba(246, 246, 246, 1); 
+    align-items: center; 
+}
+.adrsContent{
+    width: 69.44vw;
+    height: 6.66vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+.adrsButtons{
+    width:5vw;
+    height: 1.66vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: row;
+}
+.imgP4{
+    width: 1.66vw;
+    height: 1.66vw;
+}
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Seçildiğinde içerideki dolgu dairesi */
+input[type="radio"]:checked::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.adrsContentTop{
+    width: 69.44vw;
+    height: 1.66vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.adrsContentTop p{
+    width: auto;
+    height: 1.66vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    text-align: left;
+    color: rgba(23, 24, 59, 1);
+}
+.adrsTag{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.8333vw;
+    font-weight: 500;
+    line-height: 1vw;
+    text-align: left;
+    width: 3.88vw;
+    height: 1.5277vw;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #000;
+    border-radius: 4px;
+}
+.adrsContentBottom{
+    width: 69.44vw;
+    height: 3.888vw;
+    padding: 0px 0px 0px 2.777vw;
+    gap: 0.55vw;
+    display: flex;
+    flex-direction: column;
+}
+.adrsBot{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    text-align: left;
+    width: 66.666vw;
+    height: 1.66vw;
+}
+.adrsBot{
+    width: 66.66vw;
+    height: 1.66vw;
+}
+.adrsBot span{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    text-align: left;
+}

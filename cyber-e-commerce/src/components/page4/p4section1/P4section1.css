@@ -1,0 +1,105 @@
+.p4s1{
+    height: 47.77vw auto;
+    padding: 3.33vw 11.11vw 3.33vw 11.11vw;
+    gap: 4.44vw;
+    display: flex;
+    flex-direction: column;
+}
+.p4s1frame{
+    width: 77.77vw;
+    height: 41.11vw auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.p4s1block{
+    width: 77.77vw;
+    height: 32.22vw auto;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+.p4s1buttons{
+    width: 77.77vw;
+    height: 4.44vw;
+    gap: 1.66vw;
+    display: flex;
+    justify-content: end;
+}
+.p4s1block-contain{
+    width: 77.77vw;
+    height: 28.333vw auto;
+    gap: 3.33vw;
+    display: flex;
+    flex-direction: column;
+}
+.p4s1block-text{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.3888vw;
+    font-weight: 600;
+    line-height: 1.66vw;
+    text-align: left;
+    width: 77.77vw;
+    height: 1.66vw;
+    color: rgba(23, 24, 59, 1);
+}
+.p4s1AddressCards{
+    width: 77.77vw;
+    height: 21.66vw auto;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+.p4s1addNewAddress{ 
+    display: flex;
+    align-items: center;
+    width: 77.77vw;
+    height: 3.33vw;
+    gap: 0.55vw;
+    flex-direction: column;
+}
+.p4s1addTop{
+    height: 1.66vw;
+    width: 77.77vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.p4s1addBottom{
+    width: 13.125vw;
+    height: 1.11vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.972vw;
+    font-weight: 400;
+    line-height: 1.11vw;
+    text-align: center;
+}
+.plus{
+    width: 1.11vw;
+    height: 1.11vw;
+}
+.lines{
+    width: 38.055vw;
+    height: 0.5px;
+}
+.p4s1ClickZone{
+    width: 7vw;
+    height: 4.5vw;
+    position: absolute;
+    z-index: 1;
+    left: 46.5vw;
+    margin-top: 1vw;
+}
+.p4s1form{
+    position: absolute;
+    z-index: 1000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 25vw;
+    left: 25vw;
+}
+.p4s1-form-active{
+    opacity: 0.1;
+}

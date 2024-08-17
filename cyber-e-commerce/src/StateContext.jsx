@@ -9,6 +9,7 @@ export const StateProvider = ({children}) => {
     const [appleChecked, setAppleChecked] = useState(false);
     const [huaweiChecked, setHuaweiChecked] = useState(false);
     const [samsungChecked, setSamsungChecked] = useState(false);
+    const [selectedRadio, setSelectedRadio] = useState('rad1')
 
     //---------------------------pageRoute---------------------------------------
     const [prIndex, setPrIndex] = useState(1);
@@ -18,18 +19,23 @@ export const StateProvider = ({children}) => {
     const [shoppingCard, setShoppingCard] = useState([]);
     const [productCounts, setProductCounts] = useState({});
     //---------------------------address---------------------------------------
+    const [isFormOpen, setIsFormOpen] = useState(false);
     const [adresscard, setAdressCard] = useState([]);
     const [updateAdressData, setUpdateAdressData] = useState(true);
     const [formData, setFormData] = useState({
         name: '',
         surname: '',
-        adressLabel: '',
         phoneNumber: '',
-        adress: '',
-        postCode: '',
+        addressTag: '',
+        adressLabel: '',
+        neighbourhood: '',
+        street : '',
         city: '',
-        town: ''
+        town: '',
+        postCode: ''
     });
+    const [editAddressData, setEditAddressData] =useState(false);
+    const [formDataId, setFormDataId] = useState('')
 
 
     const values = {
@@ -61,6 +67,14 @@ export const StateProvider = ({children}) => {
         setSelectedPage,
         currentPage,
         setCurrentPage,
+        selectedRadio,
+        setSelectedRadio,
+        isFormOpen,
+        setIsFormOpen,
+        editAddressData,
+        setEditAddressData,
+        formDataId,
+        setFormDataId
     };
 
     return(

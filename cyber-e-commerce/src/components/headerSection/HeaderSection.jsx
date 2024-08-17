@@ -23,7 +23,7 @@ function HeaderSection() {
                             type="text"
                             placeholder="Search"
                             id="searchInput"
-                            style={{ border: 0, backgroundColor: 'transparent', fontFamily: "'SF Pro Display', sans-serif", color: '#656565', fontSize: '14px', width: '200px', height: '30px', position: 'absolute', marginLeft: '10px' }}
+                            style={{ border: 0, backgroundColor: 'transparent', fontFamily: "'SF Pro Display', sans-serif", color: '#656565', fontSize: '14px', width: '200px', height: '30px', position: 'absolute', marginLeft: '10px',caretColor: '#000' }}
                         />
                     </div>
                 </div>

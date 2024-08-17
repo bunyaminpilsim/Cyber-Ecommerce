@@ -1,0 +1,45 @@
+.stepsContainer{
+    height: 12.777vw;
+    padding: 5vw 11.11vw 5vw 11.11vw;
+    justify-content: space-between;
+    display: flex;
+}
+.steps{
+    width: 11.11vw;
+    height: 2.77vw;
+    gap: 0.55vw; 
+    display: flex;
+    align-items: center;
+    opacity: 0.35;
+}
+.active{
+    opacity: 1;
+}
+.stepImg{
+    width: 1.66vw;
+    height: 1.66vw;
+}
+ .stepText{
+    width: 8.88vw;
+    height: 100%;
+}
+ .stepCount{
+     font-family: 'SF Pro Display', sans-serif;
+     font-size: 0.97vw;
+     font-weight: 500;
+     line-height: 1.11vw;
+     letter-spacing: 0.03em;
+     text-align: left;
+     width: 8.88vw;
+     height: 1.11vw;
+}
+.stepName{
+    width: 8.88vw;
+    height: 1.66vw;    
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.31944vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}

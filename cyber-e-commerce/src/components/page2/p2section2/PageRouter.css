@@ -20,11 +20,10 @@
 .pageNumCard{
     width: 2.22vw;
     height: 2.22vw;
-    /* padding: 0.277vw 0.833vw 0.277vw 0.833vw; */
     gap: 0.55vw;
     border-radius: 0.347222vw;
     border: none;
-    background-color : '#f4efed';
+    background-color : '#f4efed' !important;
     font-family: 'SFProDisplay', sans-serif;
     font-size: 1.11vw;
     font-weight: 500;
