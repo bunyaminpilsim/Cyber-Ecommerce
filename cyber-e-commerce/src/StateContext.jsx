@@ -36,7 +36,8 @@ export const StateProvider = ({children}) => {
     });
     const [editAddressData, setEditAddressData] =useState(false);
     const [formDataId, setFormDataId] = useState('')
-
+    const [sepetCartData, setSepetCartData] = useState([]);
+    const [ctr, setCtr] = useState(false);
 
     const values = {
         products,
@@ -74,7 +75,11 @@ export const StateProvider = ({children}) => {
         editAddressData,
         setEditAddressData,
         formDataId,
-        setFormDataId
+        setFormDataId,
+        sepetCartData,
+        setSepetCartData,
+        ctr,
+        setCtr
     };
 
     return(

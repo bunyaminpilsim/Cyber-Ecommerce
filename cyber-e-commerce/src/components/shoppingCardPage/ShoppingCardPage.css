@@ -1,0 +1,211 @@
+.shopContainer{
+    min-height: 61.11vw;
+    max-height: auto;
+    padding: 7.77vw 11.11vw 7.77vw 11.11vw;
+}
+.shopContent{
+    width: 77.77vw;
+    min-height: 45.55vw;
+    max-height: auto;
+    gap: 3.3vw;
+    display: flex;
+}
+.scLeft{
+    width: 37.22vw;
+    min-height: 40.972vw;
+    max-height: auto;
+    gap: 2.77vw;
+    display: flex;
+    flex-direction: column;
+}
+.scLeftLabel{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 600;
+    line-height: 1.66vw;
+    text-align: left;
+}
+.scList{
+    width: 100%;
+    height: 70px;
+    background-color: brown;
+}
+
+.scRight{
+    width: 37.222vw;
+    height: 45.55vw;
+    padding: 3.888vw 4.444vw 3.888vw 4.444vw;
+    gap: 2.77vw;
+    border-radius: 0.694vw ;
+    border: 1px solid rgba(235, 235, 235, 1);
+    position:sticky;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    z-index: 1100;
+}
+.orderSum{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.388vw;
+    font-weight: 700;
+    line-height: 1.11vw;
+    text-align: left;
+    width: 28.3333vw;
+    height: 1.11vw;
+}
+.sumContent{
+    width:28.333vw;
+    height: 33.888vw;
+    gap: 3.33vw;
+    display: flex;
+    flex-direction: column;
+}
+.sumContentTop{
+    width: 28.3333vw;
+    height: 26.666vw;
+    gap:2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+.sumContentField{
+    width: 28.333vw;
+    height: 13.33vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+}
+.sumContentPrices{
+    width: 28.33vw;
+    height: 11.66vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+.sumContentButton{
+    width: 28.33vw;
+    height: 3.88vw;
+    /* padding: 1.11vw 3.88vw 1.11vw 3.88vw; */
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: center;
+}
+.sumContentButton:hover{
+    /* background-color: rgba(235, 235, 235, 1);
+    color: black;
+
+    border: 1px solid black; */
+    scale: 0.95;
+}
+.contentLabelField{
+    width: 28.33vw;
+    height: 5.55vw;
+    gap: 0.55vw;
+    display: flex;
+    flex-direction: column;
+}
+.inputField{
+    width:28.333vw;
+    height: 3.888vw;
+    padding: 1.11vw 0px 1.11vw 1.11vw;
+    border-radius: 7px;
+    border: 0.5px solid rgba(159, 159, 159, 1);
+}
+.inputLabel{
+    color: rgba(84, 84, 84, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    text-align: left;
+}
+.contentLabelField ::placeholder{
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    letter-spacing: -0.005em;
+    text-align: left;
+    font-family: 'SF Pro Display', sans-serif;
+    color: rgba(151, 151, 151, 1);
+}
+.subtotal{
+    width: 28.333vw;
+    height: 2.22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subtotal p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.taxes{
+    display: flex;
+    flex-direction: column;
+    width: 28.333vw;
+    height: 5vw;
+    gap: 0.55vw;
+}
+.total{
+    width: 28.333vw;
+    height: 2.22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 2.22vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.taxesPrice{
+    width:28.333vw;
+    height:2.22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.priceText{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.22vw;
+    color: rgba(84, 84, 84, 1);
+    text-align: left;
+}
+.taxPrice{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 2.22vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.shpEmpty{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(84, 84, 84, 1);
+}
+.shpEmpty p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: center;
+}

@@ -18,7 +18,8 @@ function P2section2() {
         sortBy,setSortBy,
         appleChecked, setAppleChecked,
         huaweiChecked, setHuaweiChecked,
-        samsungChecked, setSamsungChecked, currentPage
+        samsungChecked, setSamsungChecked, currentPage,
+        setProductCounts,setShoppingCard,shoppingCard,productCounts
      } = useContext(StateContext);
 
 
@@ -147,6 +148,7 @@ function P2section2() {
                                                 imageNum={`${product.img}`}
                                                 description={product.name}
                                                 price={product.price}
+                                                id={product.id}
                                             />
                                         );
                                     })
