@@ -1,0 +1,48 @@
+.p5Card{
+    width: 77.77vw;
+    height: 5vw;
+    padding: 1.66vw;
+    border-radius: 0.7638888vw;
+    border: 1px solid rgba(209, 209, 216, 1);
+    justify-content: space-between;
+    display: flex;
+}
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Seçildiğinde içerideki dolgu dairesi */
+input[type="radio"]:checked::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p5CardLeft{
+    display: flex;
+    flex-direction: row;
+    gap: 1.11vw;
+    align-items: center;
+}
+.p5CardTexts{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    text-align: left;
+}
+.not-selected P{
+    color: rgba(162, 163, 177, 1);
+}

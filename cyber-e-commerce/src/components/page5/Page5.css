@@ -1,0 +1,43 @@
+.page5Container{
+    width: 100%;
+    height: 47.77vw;
+    padding: 3.333vw 11.11vw 3.333vw 11.11vw;
+    gap: 15.555vw;
+    display: flex;
+}
+.p5Frame{
+    width: 77.7777vw;
+    height: 41.111vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.p5Block{
+    width: 77.77vw;
+    height: 21.111vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+.p5Buttons{
+    width: 77.77vw;
+    height: 4.4444vw;
+    gap: 1.6vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.p5blockText{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.38888vw;
+    font-weight: 600;
+    line-height: 1.66vw;
+    text-align: left;
+    color: rgba(23, 24, 59, 1);
+}
+.p5RadioGroup{
+    width: 77.77vw;
+    height: 17.222vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
