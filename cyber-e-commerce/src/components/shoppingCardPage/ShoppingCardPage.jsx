@@ -9,7 +9,7 @@ import axios from 'axios';
 
 
 function ShoppingCardPage() {
-    const { shoppingCard,productCounts,sepetCartData,ctr,setProductCounts,
+    const { shoppingCard,productCounts,sepetCartData,ctr,setProductCounts,cardTotalPrice,
         setCtr,
         setSepetCartData } = useContext(StateContext);
     useEffect (()=>{
@@ -70,7 +70,7 @@ function ShoppingCardPage() {
                                 <div className="sumContentPrices">
                                     <div className="subtotal">
                                         <p>Subtotal</p>
-                                        <p>$2347</p>
+                                        <p>${cardTotalPrice}</p>
                                     </div>
                                     <div className="taxes">
                                         <div className="taxesPrice">
@@ -84,7 +84,7 @@ function ShoppingCardPage() {
                                     </div>
                                     <div className="total">
                                         <p>Total</p>
-                                        <p>$2426</p>
+                                        <p>${cardTotalPrice+79}</p>
                                     </div>
                                 </div>
 

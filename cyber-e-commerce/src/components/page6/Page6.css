@@ -1,0 +1,462 @@
+.page6Container {
+    width: 100%;
+    max-height: auto;
+    min-height: 55.55vw;
+    padding: 1.66vw 11.11vw 5vw 11.11vw;
+    gap: 6.666vw;
+    display: flex;
+}
+
+.p6LeftSide {
+    width: 35.555vw;
+    max-height: auto;
+    min-height: 48.8888vw;
+    padding: 2.22vw 1.66vw 2.22vw 1.66vw;
+    gap: 1.66vw;
+    border-radius: 0.6944444vw;
+    border: 1px solid rgba(235, 235, 235, 1);
+    display: flex;
+    flex-direction: column;
+}
+.p6cardName{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.3888vw;
+    font-weight: 600;
+    line-height: 1.66vw;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.p6RightSide {
+    width: 35.555vw;
+    height: 48.88888vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6Sum {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.3888vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.p6Cards {
+    min-height: 17.2222vw;
+    max-height: auto;
+    width: 32.22vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6detail {
+    width: 32.222vw;
+    height: 22.77vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6ShipInfo {
+    width: 32.222vw;
+    height: 9.444vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6tf1 {
+    width: 32.222vw;
+    height: 5vw;
+    gap: 0.55vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6tf2 {
+    width: 32.222vw;
+    height: 3.333vw;
+    gap: 0.55vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6PriceInfo {
+    width: 32.222vw;
+    height: 11.666vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6subtotal {
+    width: 32.222vw;
+    height: 2.22vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.p6taxes {
+    width: 32.222vw;
+    height: 5vw;
+    gap: 0.55vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6total {
+    width: 32.222vw;
+    height: 2.22vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.tfText {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.95vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    text-align: left;
+}
+
+.tfField {
+    width: 32.222vw;
+    height: 3.3333vw;
+    padding: 0.8333vw 0px 0.8333vw 0px;
+}
+
+.tfFieldText {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.22vw;
+    text-align: left;
+}
+
+.pi500 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.tax1 {
+    width: 32.2222vw;
+    height: 2.22vw;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.taxText1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.22vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+}
+
+.taxText2 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 2.22vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.p6totalPriceTxt {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 600;
+    line-height: 2.22vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.p6totalText {
+    font-size: 1.11vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.p6ShopCard {
+    width: 32.22222vw;
+    height: 5vw;
+    padding: 1.11vw 0px 1.11vw 1.11vw;
+    gap: 1.11vw;
+    border-radius: 0.902777vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(246, 246, 246, 1);
+    align-items: center;
+}
+
+.p6cardImg {
+    width: 2.777vw;
+    height: 2.777vw;
+}
+
+.p6cardTexts {
+    width: 27.222vw;
+    height: 1.66vw;
+    padding: 0px 1.66vw 0px 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.p6txt1s {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.p6txt2s {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 700;
+    line-height: 1.66vw;
+    text-align: right;
+}
+
+.p6rightPaymentDetail {
+    width: 35.55vw;
+    height: 35.9722vw;
+    gap: 2.777vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p6checkbox {
+    width: 35.55vw;
+    height: 1.66vw;
+    gap: 0.55vw;
+    display: flex;
+    align-items: center;
+}
+
+.p6paymentButtons {
+    width: 35.55vw;
+    height: 4.444vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paymentDetailTop {
+    width: 35.55vw;
+    height: 5vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.ptPayment {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.3888vw;
+    font-weight: 700;
+    line-height: 1.11vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.PaymentTabs {
+    width: 35.555vw;
+    height: 2.22vw;
+    gap: 3.8888vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tabP {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.97222vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.tabP:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.CreditCardImg {
+    width: 23.40277vw;
+    height: 13.1944vw;
+}
+
+.ccDiv {
+    position: relative;
+}
+
+.ccContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 20.734722vw;
+    height: 4.9652777vw;
+    top: 6.9444vw;
+    left: 1.55625vw;
+    z-index: 100000;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.ccTop {
+    width: 20.729166vw;
+    height: 1.66vw;
+    gap: 0.3993055555555vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.ccCardName {
+    width: 17.94027777vw;
+    height: 1.11vw;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 0.972222vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    text-align: left;
+    color: rgba(174, 174, 174, 1);
+}
+
+.ccNumber {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.1979166666666667vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: center;
+    width: 4.185416666vw;
+    height: 1.66vw;
+    text-shadow: 0 0 0 white;
+
+}
+
+.paymentDetailFields {
+    width: 35.555555vw;
+    height: 12.222vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdInput {
+    width: 35.555555vw;
+    height: 3.333vw;
+    padding: 1.11vw 0px 1.11vw 1.11vw;
+    border-radius: 7px;
+    border: 0.5px solid rgba(206, 206, 206, 1);
+    caret-color: black;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+}
+
+::placeholder {
+    color: rgba(151, 151, 151, 1);
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+}
+
+.pdInputCtrDiv {
+    width: 35.555555vw;
+    height: 3.333vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1.11vw;
+}
+
+.p6CheckboxContainer {
+    font-family: 'SF Pro Display', sans-serif;
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.p6CheckboxContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.p6CheckboxContainer:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.p6CheckboxContainer input:checked~.checkmark {
+    background-color: black;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.p6CheckboxContainer input:checked~.checkmark:after {
+    display: block;
+}
+
+.p6CheckboxContainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.p6chcText{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.11vw;
+    font-weight: 500;
+    text-shadow: 0 0 0 black;
+    line-height: 1.66vw;
+}

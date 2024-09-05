@@ -39,6 +39,14 @@ export const StateProvider = ({children}) => {
     const [sepetCartData, setSepetCartData] = useState([]);
     const [ctr, setCtr] = useState(false);
 
+    //CARD DATA
+    const [cartData, setCardData] = useState({
+        name: 'CardHolder',
+        cartNumber: 'XXXXXXXXXXXXXXXX',
+    });
+    const [cardTotalPrice, setCardTotalPrice] = useState(0)
+
+
     const values = {
         products,
         setProducts,
@@ -79,8 +87,13 @@ export const StateProvider = ({children}) => {
         sepetCartData,
         setSepetCartData,
         ctr,
-        setCtr
+        setCtr,
+        cartData,
+        setCardData,
+        cardTotalPrice,
+        setCardTotalPrice
     };
+    
 
     return(
     <StateContext.Provider value={values}>

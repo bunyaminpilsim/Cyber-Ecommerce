@@ -1,18 +1,32 @@
 import FooterSection from '../footerSection/FooterSection';
 import HeaderSection from '../headerSection/HeaderSection';
-import { useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Steps from '../steps/Steps';
 import './Page5.css';
 import Page5Card from './Page5Card';
 import StepsButton from '../page4/stepsButton/StepsButton';
+import StateContext from '../../StateContext';
 
 
 function Page5() {
+    const {sepetCartData,setCardTotalPrice} = useContext(StateContext)
     const [selectedCard, setSelectedCard] = useState(null);
 
     const handleSelect = (cardIndex) => {
         setSelectedCard(cardIndex);
     };
+    useEffect(()=>{
+        fetch('http://localhost:3000/shoppingCart')
+            .then(response => response.json())
+            .then(data => {
+                const totalPrice = data.reduce((acc, cart) => {
+                    return acc + (parseInt(cart.price) * cart.adet);
+                }, 0);
+                setCardTotalPrice(totalPrice);
+            })
+            .catch(error => console.error('Error fetching cart data:', error));
+    }),[sepetCartData]
+    
 
     const cards = [
         { title1: 'Free', title2: 'Regulary Shipment', title3: '17 Oct, 2023' },
