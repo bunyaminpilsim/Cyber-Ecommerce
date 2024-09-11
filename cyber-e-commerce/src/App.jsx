@@ -1,24 +1,17 @@
 import './App.css'
-import Page1 from './components/page1/Page1'
-import Page2 from './components/page2/Page2'
-import P4section1 from './components/page4/p4section1/P4section1'
-import Page4 from './components/page4/Page4'
-import Page5 from './components/page5/Page5'
-import Page6 from './components/page6/Page6'
-import ShoppingCard from './components/shoppingCardPage/ShoppingCardPage'
-import Steps from './components/steps/Steps'
+import RouterSystem from './RouterSystem'
 import { StateProvider } from './StateContext'
 
+import { ToastContainer, toast } from 'react-custom-alert';
+import 'react-custom-alert/dist/index.css'; 
 
 
 function App() {
   return (
     <>
       <StateProvider>
-      <Page2/>
-      <ShoppingCard/>
-          <Page5/>
-          <Page6/>
+        <RouterSystem/>    
+        <ToastContainer floatingTime={1000} />      
       </StateProvider>
     </>
   )

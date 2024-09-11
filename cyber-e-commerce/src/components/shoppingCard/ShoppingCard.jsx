@@ -6,6 +6,8 @@ import plus from '../../assets/ShoppingCard/Plus.png';
 import Negative from '../../assets/ShoppingCard/Negative.png';
 import Close from '../../assets/ShoppingCard/Close.png';
 import axios from 'axios';
+import { toast } from 'react-custom-alert';
+
 
 function ShoppingCard({ image, description, id, price,prCount }) {
 
@@ -17,6 +19,9 @@ function ShoppingCard({ image, description, id, price,prCount }) {
         });
         setProductCounts(newProductCounts);
     }, [products]);
+    const alertInfo = (msg) => toast.info(`${msg}`);
+    const alertSuccess = (msg) => toast.success(`${msg}`);
+    const alertWarning = (msg) => toast.warning(`${msg}`);
     const removeFromShoppingCard = (productId) => {
         
         axios.delete(`http://localhost:3000/shoppingCart/${productId}`,shoppingCard[productId]).then((response) => {
@@ -27,6 +32,7 @@ function ShoppingCard({ image, description, id, price,prCount }) {
         }));
         setCtr(!ctr)
         });
+        alertInfo("product removed from cart")
     };
     const updateAdet = async (userId, updateInfo) => {
         await axios.patch(`http://localhost:3000/shoppingCart/${userId}`, updateInfo);
@@ -49,7 +55,7 @@ function ShoppingCard({ image, description, id, price,prCount }) {
             });
            await setCtr(prev => !prev); // State'i güncelle
         } else {
-            alert("You can't decrease count below 1");
+            alertWarning("You can't decrease count below 1")
         }
     };
     

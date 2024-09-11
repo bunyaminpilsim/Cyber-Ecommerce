@@ -1,0 +1,289 @@
+.p3s2Container{
+    width: 100%;
+    height: 62.222vw;
+    padding: 7.7777vw 11.11vw 7.7777vw 11.11vw;
+    gap: 3.333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.p3s2Images{
+    width:37.2222vw;
+    height: 35.8333333vw;
+    gap: 3.3333vw;
+    display: flex;        
+    align-items: center;
+    flex-direction: row;
+}
+.p3s2ImagesLeft{
+    width: 5.19999vw;
+    height: 30.8333vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phns{
+    width: 3.21597222vw;
+    height: 6.458333vw;
+}
+.imgMainP3{
+    width: 74.88px;
+    height: 93px;
+}
+.p3s2ImagesRight{
+    width: 28.688vw;
+    height: 35.8333333vw;
+    /* object-fit: contain; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.p3s2mainImg{
+    width: 10.688vw;
+    height: 14.333333vw;
+}
+.p3s2info{
+    width: 37.22222vw;
+    height: 46.6666vw;
+    gap: 2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+.p3s2Content{
+    width: 37.222vw;
+    height: 34.444vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p3sInfo2Buttons{
+    width: 37.222vw;
+    height: 3.8888vw;
+    gap: 1.11vw;
+    display: flex;
+}
+.p3s2Icons{
+    width: 37.222vw;
+    height: 3.8888vw;
+    gap: 2.22vw;
+    display: flex;
+}
+.p3s2ContentTitle{
+    width: 37.222vw;
+    height: 7.777vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+}
+.p3s2t1{
+    width: 37.222vw;
+    height: 2.7777vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 2.7777vw;
+    font-weight: 700;
+    line-height: 2.7777vw;
+    text-align: left;
+}
+.p3s2t2div{
+    width: 37.222vw;
+    height: 3.3333vw;
+    gap: 1.11vw;  
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.p3s2t2{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 2.22vw;
+    font-weight: 500;
+    line-height: 3.33vw;
+    letter-spacing: 0.03em;
+    text-align: left;   
+}
+.p3s2t3{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 400;
+    line-height: 2.22vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(160, 160, 160, 1);
+    text-decoration:  line-through;
+}
+.p3s2ContentInfo{
+    width: 37.222vw;
+    height: 25.5555vw;
+    gap: 1.66vw;
+    display: flex;
+    flex-direction: column;
+}
+.p3s2CIcolors{
+    width: 37.2222vw;
+    height: 2.22vw;
+    gap: 1.66vw;
+    display: flex;    
+    align-items: center;
+}
+.colorBox{
+    width: 2.22vw;    
+    height: 2.22vw;
+    border-radius: 100%;
+}
+.p3s2CIcolorBoxes{
+    width: 29.930555vw;
+    height: 2.22vw;
+    gap: 0.55vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.p3s2CIcolorText{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 1.04166vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    text-align: left;
+    
+}
+.p3s2CItabsMemory{
+    width: 37.2222vw;
+    height: 3.3333vw;
+    gap: 1.11vw;
+    display: flex;    
+}
+.memoryCard{
+    width: 8.4722222vw;
+    height: 3.33vw;
+    padding: 1.11vw 1.66vw 1.11vw 1.66vw;
+    gap: 0.55vw;
+    border-radius: 0.55vw;
+    border: 1px solid;
+}
+.memoryCard p{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 0.9722222vw;
+    font-weight: 500;
+    line-height: 1.11vw;
+    text-align: center;    
+}
+.p3s2CIdetails{
+    width: 37.2222vw;
+    height: 10vw;
+    gap: 1.11vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detailCard{
+    width: 11.6666vw;
+    height: 4.444vw;
+    padding: 1.11vw;
+    gap: 0.55vw;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(244, 244, 244, 1);
+    align-items: center;
+}
+.p3s2CItext{
+    width: 37.2222vw;
+    height: 5vw;
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(108, 108, 108, 1);
+}
+.p3s2CItext span{
+    color: black;
+}
+.dcTextDiv{
+    width: 7.222vw;
+    height: 2.22vw;
+    display: flex;
+    flex-direction: column;
+}
+.dcText1{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(78, 78, 78, 0.4);
+}
+.dcText2{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(78, 78, 78, 1);    
+}
+.p3s2CItext span{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 0.97222vw;
+    font-weight: 400;
+    line-height: 1.66vw;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.p3s2Button1{
+    width: 18.0555vw;
+    height: 3.8888vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.p3s2Button2{
+    width: 18.0555vw;
+    height: 3.8888vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color:black;
+    color: white;
+}
+.p3s2Button1:hover{
+    scale: 1.05;
+}
+.p3s2Button2:hover{
+    scale: 1.05;
+}
+.featureCard{
+    width: 10.93125vw;
+    height: 3.888vw;
+    gap: 1.11vw;
+    border-radius: 0.55vw;
+    display: flex;
+    flex-direction: row;
+}
+.featureCard img{
+    width: 3.888vw;
+    height: 3.888vw;
+}
+.fcTexts{
+    width: 5.48611111vw;
+    height: 3.33vw;
+}
+.fcText1{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 0.9722vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: left;    
+    color: rgba(113, 113, 113, 1);
+}
+.fcText2{
+    font-family: 'SFProDisplay', sans-serif;
+    font-size: 0.9722vw;
+    font-weight: 500;
+    line-height: 1.66vw;
+    text-align: left; 
+}

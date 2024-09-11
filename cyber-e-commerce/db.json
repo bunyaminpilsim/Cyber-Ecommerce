@@ -1,0 +1,469 @@
+{
+  "HomePageProducts": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+      "price": "900",
+      "img": "https://i.hizliresim.com/6d74d3b.png"
+    },
+    {
+      "id": "2",
+      "name": "Blackmagic Pocket Cinema Camera 6k",
+      "price": "2535",
+      "img": "https://i.hizliresim.com/fajrtsd.png"
+    },
+    {
+      "id": "3",
+      "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case",
+      "price": "399",
+      "img": "https://i.hizliresim.com/j9fme6p.png"
+    },
+    {
+      "id": "4",
+      "name": "AirPods Max Silver",
+      "price": "549",
+      "img": "https://i.hizliresim.com/ti862ja.png"
+    },
+    {
+      "id": "5",
+      "name": "Samsung Galaxy Watch6 Classic 47mm Black",
+      "price": "369",
+      "img": "https://i.hizliresim.com/qfh0j9s.png"
+    },
+    {
+      "id": "6",
+      "name": "Galaxy Z Fold5 Unlocked | 256GB | Phantom Black",
+      "price": "1799",
+      "img": "https://i.hizliresim.com/8iw6fdx.png"
+    },
+    {
+      "id": "7",
+      "name": "Galaxy Buds FE Graphite",
+      "price": "99.99",
+      "img": "https://i.hizliresim.com/56fo22g.png"
+    },
+    {
+      "id": "8",
+      "name": "Apple iPad 9 10.2\" 64GB Wi-Fi Silver (MK2L3) 2021",
+      "price": "398",
+      "img": "https://i.hizliresim.com/i9pfbrh.png"
+    },
+    {
+      "id": "9",
+      "name": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "price": "1437",
+      "img": "https://i.hizliresim.com/epmnens.png"
+    },
+    {
+      "id": "10",
+      "name": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "price": "1499",
+      "img": "https://i.hizliresim.com/twhgvrv.png"
+    }
+  ],
+  "productsPage": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "price": "1437",
+      "img": "https://i.hizliresim.com/nplliwe.png",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "2",
+      "name": "Apple iPhone 11 128GB White (MQ233)",
+      "price": "510",
+      "img": "https://i.hizliresim.com/blc3n5s.png",
+      "battery": "4000Mah",
+      "screenType": "SuperAmoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "3",
+      "name": "Apple iPhone 11 128GB White(MQ233)",
+      "price": "550",
+      "img": "https://i.hizliresim.com/7xod1gr.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "4",
+      "name": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "price": "1499",
+      "img": "https://i.hizliresim.com/oh4sy9f.png",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "5",
+      "name": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "price": "1399",
+      "img": "https://i.hizliresim.com/jlo4fxd.png",
+      "battery": "4000Mah",
+      "screenType": "OLED",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "6",
+      "name": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "price": "1600",
+      "img": "https://i.hizliresim.com/pp5elre.png",
+      "battery": "4000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "7",
+      "name": "Apple iPhone 13 mini 128GB Pink (MLK23)",
+      "price": "850",
+      "img": "https://i.hizliresim.com/r9n4ydh.png",
+      "battery": "2000Mah",
+      "screenType": "OLED",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "8",
+      "name": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
+      "price": "1399",
+      "img": "https://i.hizliresim.com/ecqhq7f.png",
+      "battery": "4000Mah",
+      "screenType": "SuperAmoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "9",
+      "name": "Apple iPhone 14 Pro 256GB Silver (MQ103)",
+      "price": "1399",
+      "img": "https://i.hizliresim.com/dv9x0mq.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "10",
+      "name": "Apple iPhone 7 128GB Silver (MQ105)",
+      "price": "599",
+      "img": "https://i.ibb.co/PhCC41Q/ip7-128.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "11",
+      "name": "Apple iPhone 7 Plus Gold 128GB (MQ106)",
+      "price": "699",
+      "img": "https://i.ibb.co/NNC6p9V/ip7plus32.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "12",
+      "name": "Apple iPhone 8 Plus 256GB Red (MQ155)",
+      "price": "799",
+      "img": "https://i.ibb.co/tB2g6D4/ip8plus64red.webp",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "13",
+      "name": "Apple iPhone 8 Plus 64GB Silver (MQ153)",
+      "price": "1399",
+      "img": "https://i.ibb.co/yFGGK2j/ip8plus64silver.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "14",
+      "name": "Apple iPhone 8 Plus 64GB black (MQ185)",
+      "price": "1399",
+      "img": "https://i.ibb.co/z8B5bn0/ip8plus64spacegray.webp",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "15",
+      "name": "Apple iPhone 12 64GB black (MQ185)",
+      "price": "999",
+      "img": "https://i.ibb.co/jfhtG64/ip12-black.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "16",
+      "name": "Apple iPhone 13 64GB blue (MQ185)",
+      "price": "1099",
+      "img": "https://i.ibb.co/sttR1c9/ip13.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "17",
+      "name": "Apple iPhone X 64GB silver (MQ185)",
+      "price": "1010",
+      "img": "https://i.ibb.co/Mn9SLkC/IPhone-X-back-and-front-Silver.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "18",
+      "name": "Apple iPhone X 64GB black (MQ185)",
+      "price": "1010",
+      "img": "https://i.ibb.co/0B9qBrk/IPhone-X-black.webp",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "19",
+      "name": "Apple iPhone 8 64GB rose gold (MQ185)",
+      "price": "899",
+      "img": "https://i.ibb.co/gFc8x2w/i-Phone-8-64-GB-rose-gold.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "20",
+      "name": "Apple iPhone 8 256GB silver (MQ185)",
+      "price": "899",
+      "img": "https://i.ibb.co/YDnvrZ5/i-Phone-8-64-GB-silver.webp",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "21",
+      "name": "Apple iPhone 8  64GB black (MQ185)",
+      "price": "899",
+      "img": "https://i.ibb.co/4YnQ9YD/i-Phone-8-64-GB-space-gray.webp",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "0"
+    },
+    {
+      "id": "22",
+      "name": "Apple iPhone 12 128GB Blue (MQ185)",
+      "price": "1099",
+      "img": "https://i.ibb.co/1rRtT4M/iphone-12-blue-select-2020.png",
+      "battery": "4000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "23",
+      "name": "Apple iPhone 11 256Gb White (MQ185)",
+      "price": "1399",
+      "img": "https://i.ibb.co/MpktVP6/yenilenmis-iphone-11-64-gb-lila-4cf-bc.webp",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "Apple",
+      "adet": "1"
+    },
+    {
+      "id": "24",
+      "name": "Samsung Galaxy Z Flood 6 256Gb Pink",
+      "price": "1499",
+      "img": "https://i.ibb.co/J37HR0c/galaxy-z-flood6-pink-256.webp",
+      "battery": "4000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "25",
+      "name": "Samsung Galaxy A70 128Gb purple",
+      "price": "1199",
+      "img": "https://i.ibb.co/P1mH1WN/mas-A72-128mor.png",
+      "battery": "4000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "26",
+      "name": "Samsung Galaxy A05 64GB White",
+      "price": "499",
+      "img": "https://i.ibb.co/JjDkGwr/sam-A05-white.webp",
+      "battery": "2000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "27",
+      "name": "Samsung Galaxy A70 128Gb Black",
+      "price": "1199",
+      "img": "https://i.ibb.co/v3HH7cy/sam-A70-black.png",
+      "battery": "4000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "28",
+      "name": "Samsung Galaxy A72 128Gb Purple",
+      "price": "1199",
+      "img": "https://i.ibb.co/P1mH1WN/mas-A72-128mor.png",
+      "battery": "4000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "29",
+      "name": "Samsung Galaxy S10 Plus 128Gb White",
+      "price": "999",
+      "img": "https://i.ibb.co/kD3LYJX/sam-S10plus-128white.webp",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "30",
+      "name": "Samsung Galaxy S21FE 128Gb Purple",
+      "price": "999",
+      "img": "https://i.ibb.co/dg8Qxjp/sam-S21-FE-128-mor.webp",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "31",
+      "name": "Samsung Galaxy S23 256Gb Green",
+      "price": "999",
+      "img": "https://i.ibb.co/x67cXBj/sam-S23yesil256.webp",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "32",
+      "name": "Samsung Galaxy S24 256Gb Purple",
+      "price": "909",
+      "img": "https://i.ibb.co/GMWTW6X/sam-S24-256-mor.webp",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "samsung",
+      "adet": "1"
+    },
+    {
+      "id": "33",
+      "name": "Huawei Mate 50 Pro 128GB Silver (MQ103)",
+      "price": "899",
+      "img": "https://i.ibb.co/h9x8WB7/huamate50-pro-silver.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    },
+    {
+      "id": "34",
+      "name": "Huawei Nova 11i 128Gb Black (MQ103)",
+      "price": "799",
+      "img": "https://i.ibb.co/Mn146X7/hua-Nova11i-black-128.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    },
+    {
+      "id": "35",
+      "name": "Huawei Nova 12i 128Gb Aqua (MQ103)",
+      "price": "799",
+      "img": "https://i.ibb.co/JqsSwD4/hua-Nova12i-128-aqua.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    },
+    {
+      "id": "36",
+      "name": "Huawei Nova 12 128Gb blue (MQ103)",
+      "price": "799",
+      "img": "https://i.ibb.co/ZGH9wzZ/hua-Nova12s-256-blue.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    },
+    {
+      "id": "37",
+      "name": "Huawei Mate 60 256Gb Red (MQ103)",
+      "price": "1000",
+      "img": "https://i.ibb.co/2Z0Nr3W/Huawei-Mate-60-RS-red.webp",
+      "battery": "4000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    },
+    {
+      "id": "38",
+      "name": "Huawei P Smart 2021 128Gb Black (MQ103)",
+      "price": "599",
+      "img": "https://i.ibb.co/nPj7Sx5/huawei-p-smart-2021-128gb-a-grade-yeni-4fcb4.png",
+      "battery": "2000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    },
+    {
+      "id": "39",
+      "name": "Huawei P Smart Pro 128Gb Black (MQ103)",
+      "price": "799",
+      "img": "https://i.ibb.co/RgsjmHG/huawei-p-smart-pro-list-Image-midnight-black-new.png",
+      "battery": "3000Mah",
+      "screenType": "Amoled",
+      "brand": "huawei",
+      "adet": "1"
+    }
+  ],
+  "address": [],
+  "shoppingCart": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "price": "1437",
+      "img": "https://i.hizliresim.com/nplliwe.png",
+      "battery": "3000Mah",
+      "screenType": "OLED",
+      "brand": "Apple",
+      "adet": "1"
+    }
+  ]
+}

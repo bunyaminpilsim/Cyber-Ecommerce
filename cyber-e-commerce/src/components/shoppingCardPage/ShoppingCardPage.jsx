@@ -5,10 +5,16 @@ import ShoppingCard from '../shoppingCard/ShoppingCard'
 import './ShoppingCardPage.css'
 import StateContext from '../../StateContext'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 
 
 
 function ShoppingCardPage() {
+    const navigate = useNavigate();
+    const handleRouteStep1Page = () => {
+        navigate('/step1');
+    };
     const { shoppingCard,productCounts,sepetCartData,ctr,setProductCounts,cardTotalPrice,
         setCtr,
         setSepetCartData } = useContext(StateContext);
@@ -89,7 +95,7 @@ function ShoppingCardPage() {
                                 </div>
 
                             </div>
-                            <button className="sumContentButton" >Checkout</button>
+                            <button className="sumContentButton" onClick={handleRouteStep1Page}>Checkout</button>
                         </div>
                     </div>
                 </div>

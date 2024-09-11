@@ -4,7 +4,12 @@ import ps5Img from '../../../assets/Page1Section1/PlayStation.png'
 import macbookImg from '../../../assets/Page1Section1/MacBook Pro 14.png'
 import airpods from '../../../assets/Page1Section1/airpods.png'
 import appleVisionımg from '../../../assets/Page1Section1/appleVision.png'
+import { useNavigate } from 'react-router-dom';
 function P1section1() {
+    const navigate = useNavigate();
+    const handleRouteProductsPage = () => {
+        navigate('/productsPage'); 
+    };
     return (
         <>
             <div className="row">
@@ -13,7 +18,7 @@ function P1section1() {
                         <div className="proBeyond">Pro.Beyond.</div>
                         <div className="iphone14Pro">IPhone 14 <span className="textPro">Pro</span></div>
                         <div className="contentbottom1">Created to change everything for the better. For everyone</div>
-                        <button className="content1Button">Shop Now</button>
+                        <button className="content1Button" onClick={handleRouteProductsPage}>Shop Now</button>
                     </div>
                     <img src={iphoneImg} alt=""/>
                 </div>
@@ -49,7 +54,7 @@ function P1section1() {
                     <div className="macContainer">
                         <p>Macbook <span>Air</span></p>
                         <div className="macbookDetailText">The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</div>
-                        <button className="macbookButton content1Button">Shop Now</button>
+                        <button className="macbookButton content1Button" onClick={handleRouteProductsPage}>Shop Now</button>
                     </div>
                     <img src={macbookImg} alt="" className="macImg"/>
                 </div>

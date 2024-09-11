@@ -6,12 +6,20 @@ import './Page5.css';
 import Page5Card from './Page5Card';
 import StepsButton from '../page4/stepsButton/StepsButton';
 import StateContext from '../../StateContext';
+import { useNavigate } from 'react-router-dom';
 
 
 function Page5() {
+    const navigate = useNavigate();
+    const handleRouteStep1Page = () => {
+        navigate('/step1');
+    };
+    const handleRouteStep3Page = () => {
+        navigate('/step3');
+    };
     const {sepetCartData,setCardTotalPrice} = useContext(StateContext)
     const [selectedCard, setSelectedCard] = useState(null);
-
+    
     const handleSelect = (cardIndex) => {
         setSelectedCard(cardIndex);
     };
@@ -55,8 +63,8 @@ function Page5() {
                         </div>
                     </div>
                     <div className="p5Buttons">
-                        <StepsButton text={"Back"} bgColor={'white'} borderColor={'black'} />
-                        <StepsButton text={"Next"} bgColor={'black'} borderColor={'white'} />
+                        <StepsButton text={"Back"} bgColor={'white'} borderColor={'black'} onC={handleRouteStep1Page}/>
+                        <StepsButton text={"Next"} bgColor={'black'} borderColor={'white'} onC={handleRouteStep3Page}/>
                     </div>
                 </div>
             </div>

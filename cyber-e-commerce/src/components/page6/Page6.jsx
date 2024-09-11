@@ -6,6 +6,8 @@ import creditCard from '../../assets/ShoppingCard/ccImg.png';
 import StateContext from '../../StateContext';
 import { useContext,useEffect,useState } from 'react';
 import StepsButton from '../page4/stepsButton/StepsButton';
+import { useNavigate } from 'react-router-dom';
+
 
 function CreateP6card({nameCard,priceCard,imgCard,adetCard}) {
 
@@ -22,6 +24,10 @@ function CreateP6card({nameCard,priceCard,imgCard,adetCard}) {
     )
 }
 function Page6() {
+    const navigate = useNavigate();
+    const handleRouteStep2Page = () => {
+        navigate('/step2');
+    };
     const { cartData, setCardData,sepetCartData,cardTotalPrice,setCardTotalPrice } = useContext(StateContext)
     const handleFormValueChange = (e) => {
         const { name, value } = e.target;
@@ -134,7 +140,7 @@ function Page6() {
                         <p className='p6chcText'>Same as billing address</p>
                     </div>
                     <div className="p6paymentButtons">
-                        <StepsButton text={"Back"} bgColor={'white'} borderColor={'black'} />
+                        <StepsButton text={"Back"} bgColor={'white'} borderColor={'black'} onC={handleRouteStep2Page}/>
                         <StepsButton text={"Next"} bgColor={'black'} borderColor={'white'} />
                     </div>
                 </div>

@@ -4,6 +4,7 @@ import close from '../../assets/p4s1/Close.png'
 import { useState, useContext } from 'react';
 import StateContext from '../../StateContext';
 import axios from 'axios';
+import { toast } from 'react-custom-alert';
 
 
 function AddressCard({ id, addressLabel, addressTag, neighbourhood, street, city, town, postcode,number, editForm}) {
@@ -12,9 +13,11 @@ function AddressCard({ id, addressLabel, addressTag, neighbourhood, street, city
     const handleClick = (e) => {
         setSelectedRadio(e.target.value)
     }
+    const alertWarning = (msg) => toast.warning(`${msg}`);
     const deleteFormData = (ctrid) => async () => {
         await axios.delete(`http://localhost:3000/address/${id}`)
         setUpdateAdressData(!updateAdressData)
+        alertWarning('address information removed')
     }
     return (
         <div className="addressCard" key={id}>

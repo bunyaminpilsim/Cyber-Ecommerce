@@ -5,7 +5,12 @@ import okFoto from '../../../assets/Page2section1/arrowters.png'
 import { useState, useEffect,useContext  } from 'react';
 import CreateCard from '../../card/CreateCard.jsx';
 import StateContext from '../../../StateContext.jsx';
+import Page3 from '../../page3/Page3.jsx';
+import { useNavigate } from 'react-router-dom';
+
 function P2section2() {
+    const navigate = useNavigate();
+
     // const [products, setProducts] = useState([]);
     // const [filteredProducts, setFilteredProducts] = useState([]);
     // const [sortBy, setSortBy] = useState("az");
@@ -19,7 +24,7 @@ function P2section2() {
         appleChecked, setAppleChecked,
         huaweiChecked, setHuaweiChecked,
         samsungChecked, setSamsungChecked, currentPage,
-        setProductCounts,setShoppingCard,shoppingCard,productCounts
+        setProductCounts,setShoppingCard,shoppingCard,productCounts,setCardTotalPrice,sepetCartData,ctr
      } = useContext(StateContext);
 
 
@@ -119,6 +124,17 @@ function P2section2() {
         setSortBy(selectedOption);
         deneme(filteredProducts, selectedOption);
     };
+    useEffect(()=>{
+        fetch('http://localhost:3000/shoppingCart')
+            .then(response => response.json())
+            .then(data => {
+                const totalPrice = data.reduce((acc, cart) => {
+                    return acc + (parseInt(cart.price) * cart.adet);
+                }, 0);
+                setCardTotalPrice(totalPrice);
+            })
+            .catch(error => console.error('Error fetching cart data:', error));
+    }),[sepetCartData,ctr]
     return (
         <div className="row">
             <div className="p2s2container col-12">
@@ -140,20 +156,22 @@ function P2section2() {
                                 </select>
 
                             </div>
-                            <div className='productPageCards'>
-                                {
-                                    currentPage.map(product => {
-                                        return ( // return ifadesini ekledik
-                                            <CreateCard
-                                                imageNum={`${product.img}`}
-                                                description={product.name}
-                                                price={product.price}
-                                                id={product.id}
-                                            />
-                                        );
-                                    })
-                                }
-                            </div>
+                                <div className='productPageCards'>
+                                    {
+                                        currentPage.map(product => {
+                                            return (
+                                                <CreateCard
+                                                    key={product.id} 
+                                                    onclck={() => navigate("/productDetail", { state: { img: product.img, title: product.name, price: product.price } })}
+                                                    imageNum={`${product.img}`}
+                                                    description={product.name}
+                                                    price={product.price}
+                                                    id={product.id}
+                                                />
+                                            );
+                                        })
+                                    }
+                                </div>
 
 
                         </div>
