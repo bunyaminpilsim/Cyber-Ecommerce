@@ -7,10 +7,10 @@ Cyber E-Ticaret, React ile Vite kullanılarak geliştirilmiş bir e-ticaret plat
 - Ürünleri listeleme
 - Ürünleri filtreleme ve sıralama
 - Sepete ekleme ve çıkartma
-- Sepette ürün sayısını artırma
-- Birden fazla Adres bilgisi ekleme ve güncelleme
+- Sepette ürün sayısını arttırma
+- Birden fazla adres bilgisi ekleme ve güncelleme
 - Ödeme işlemleri
-- Sepet ve adres işlemlerinin eşzamanlı olarak uzak sunucuya gönderilmesi
+- Sepet ve adres işlemlerinin eş zamanlı olarak uzak sunucuya gönderilmesi
 
 ## Kullanılan Teknolojiler
 
@@ -29,14 +29,14 @@ Cyber E-Ticaret, React ile Vite kullanılarak geliştirilmiş bir e-ticaret plat
 2. Proje dizinine gidin
   * ```cd Cyber-Ecommerce```
 
- 3.gerekli paketleri yükleyin
+ 3. Gerekli paketleri yükleyin
  * ```npm install```
  * ```npm install axios```
  * ```npm install react-router-dom```
  * ```npm install react-custom-alert```
  * ```npm install json-server```
 
-4.Projeyi başlatın
+4. Projeyi başlatın
  * ```npm run dev```
  * ```npx json-server db.json```
 
