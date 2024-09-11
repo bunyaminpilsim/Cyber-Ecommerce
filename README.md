@@ -7,7 +7,7 @@ Cyber E-Ticaret, React ile Vite kullanılarak geliştirilmiş bir e-ticaret plat
 - Ürünleri listeleme
 - Ürünleri filtreleme ve sıralama
 - Sepete ekleme ve çıkartma
-- Sepette ürün sayısını arttırma
+- Sepette ürün miktarını yönetme
 - Birden fazla adres bilgisi ekleme ve güncelleme
 - Ödeme işlemleri
 - Sepet ve adres işlemlerinin eş zamanlı olarak uzak sunucuya gönderilmesi
@@ -40,4 +40,44 @@ Cyber E-Ticaret, React ile Vite kullanılarak geliştirilmiş bir e-ticaret plat
  * ```npm run dev```
  * ```npx json-server db.json```
 
+# Cyber E-Commerce Project
 
+Cyber E-Commerce is an e-commerce platform developed using React with Vite. It adopts responsive design principles to provide a user-friendly interface. The project converts data received from the API into product cards and lists them, allowing users to perform various operations.
+
+## Features
+
+- Listing products
+- Filtering and sorting products
+- Adding and removing items from the cart
+- Managing the quantity of items in the cart
+- Adding and updating multiple address information
+- Payment processing
+- Simultaneous sending of cart and address operations to a remote server
+
+## Technologies Used
+
+- **Frontend**: React.js, HTML, CSS
+- **Dynamic Page Routing**: React Router DOM
+- **React Hooks**: Use to manage state and side effects in functional components. Hooks like useState and useEffect play a significant role in managing the lifecycle and state of components.
+- **API Communication**: Axios
+- **Data Management**: json-server
+- **Alert Management**: react-custom-alert
+- **State Management**: Context API
+
+## Installation
+
+1. Clone the repository to your directory:
+   *  ```git clone https://github.com/Emincurmen/Cyber-Ecommerce.git ```
+2. Navigate to the project directory:
+   * ```cd Cyber-Ecommerce```
+
+3. Install the necessary packages:
+   * ```npm install```
+   * ```npm install axios```
+   * ```npm install react-router-dom```
+   * ```npm install react-custom-alert```
+   * ```npm install json-server```
+
+4. Start the project:
+   * ```npm run dev```
+   * ```npx json-server db.json```
