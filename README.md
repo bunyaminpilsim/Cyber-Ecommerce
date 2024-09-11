@@ -1,6 +1,6 @@
 # Cyber E-Ticaret Projesi
 
-Cyber E-Ticaret, React.js ile geliştirilmiş bir e-ticaret platformudur. Responsive tasarım ilkeleri benimsenerek kullanıcı dostu bir arayüz sunmaktadır. Proje, API ile gelen verileri ürün kartlarına çevirip listelemekte, kullanıcıların çeşitli işlemleri gerçekleştirmesine olanak tanımaktadır.
+Cyber E-Ticaret, React ile Vite kullanılarak geliştirilmiş bir e-ticaret platformudur. Responsive tasarım ilkeleri benimsenerek kullanıcı dostu bir arayüz sunmaktadır. Proje, API ile gelen verileri ürün kartlarına çevirip listelemekte, kullanıcıların çeşitli işlemleri gerçekleştirmesine olanak tanımaktadır.
 
 ## Özellikler
 
