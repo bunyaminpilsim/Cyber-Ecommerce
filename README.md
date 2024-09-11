@@ -52,7 +52,7 @@ Cyber E-Commerce is an e-commerce platform developed using React with Vite. It a
 - Managing the quantity of items in the cart
 - Adding and updating multiple address information
 - Payment processing
-- Simultaneous sending of cart and address operations to a remote server
+- Simultaneous sending of cart and address operations to a virtual server
 
 ## Technologies Used
 
