@@ -2,6 +2,12 @@
 
 Cyber E-Ticaret, React ile Vite kullanılarak geliştirilmiş bir e-ticaret platformudur. Responsive tasarım ilkeleri benimsenerek kullanıcı dostu bir arayüz sunmaktadır. Proje, API ile gelen verileri ürün kartlarına çevirip listelemekte, kullanıcıların çeşitli işlemleri gerçekleştirmesine olanak tanımaktadır.
 
+## Proje videosu
+
+[İzlemek için tıkla](https://www.youtube.com/watch?v=dZVg9Yyhcw4)
+
+[![cyber e-commerce project](https://img.youtube.com/vi/dZVg9Yyhcw4/0.jpg)](https://www.youtube.com/watch?v=dZVg9Yyhcw4)
+
 ## Özellikler
 
 - Ürünleri listeleme
